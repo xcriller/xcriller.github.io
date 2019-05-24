@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Práctica 10</title>
+</head>
+
+<style>
+  table.stripped {
+    width: 100%;
+    border: 1px black solid;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 1px black solid;
+    padding: 10PX;
+    text-align: left;
+  }
+
+  tr:nth-child(even):hover{
+background-color: blue;   
+  }
+</style>
+
+
+<body>
+
+  <table class="stripped">
+    <tr>
+      <th>NOMBRE</th>
+      <th>VOLTAJE(V)</th>
+      <th>CORRIENTE(mA)</th>
+    </tr>
+    <tr class=par>
+      <td>Diodo Led</td>
+      <td>3,3</td>
+      <td>20ma</td>
+    </tr>
+    <tr>
+      <td>Potenciometro</td>
+      <td>24v</td>
+      <td>100ma</td>
+    </tr>
+    <tr class=par>
+      <td>Motor DC</td>
+      <td>12v</td>
+      <td>40ma</td>
+    </tr>
+    <tr>
+      <td>LDR</td>
+      <td>12v</td>
+      <td>100ma</td>
+    </tr>
+    <tr class=par>
+      <td>Transitor NPN 2n2222</td>
+      <td>80v</td>
+      <td>100ma</td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
